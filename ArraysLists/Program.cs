@@ -25,7 +25,33 @@ namespace ArraysLists
             foreach (var number in numbers){
                 Console.WriteLine(number);
             }
+
+            // Copy()
+            int[] arr = new int[3];
+            Array.Copy(numbers, arr, 3);
+            foreach (var number in arr) {
+                Console.WriteLine(number);
+            }
+
+            // Sort()
+
+            Array.Sort(numbers);
+            foreach (var number in numbers)
+            {
+                Console.WriteLine(number);
+            }
+
+            // Reverse()
+
+            Array.Reverse(numbers);
+            foreach (var number in numbers)
+            {
+                Console.WriteLine(number);
+            }
+
         }
+
+
 
 
 
