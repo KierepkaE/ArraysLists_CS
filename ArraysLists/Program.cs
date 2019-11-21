@@ -1,4 +1,5 @@
-﻿using System;
+﻿using System.Collections.Generic;
+using System;
 
 namespace ArraysLists
 {
@@ -48,6 +49,12 @@ namespace ArraysLists
             {
                 Console.WriteLine(number);
             }
+
+            // LISTS
+
+            var numbers2 = new List<int>() { 1,2,3,4};
+            numbers2.Add(1);
+            numbers2.AddRange(new int[3] { 5,6,7});
 
         }
 
